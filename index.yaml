@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-09-15T18:37:07.548710222Z
+    deprecated: true
+    description: DEPRECATED Web publishing platform for building blogs and websites.
+    digest: 6dda8337f18c8c19df1f97bdd4829bd1cfd70e84db1edac5a042711d86aef12a
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: 2020-09-15T18:37:07.543528816Z
