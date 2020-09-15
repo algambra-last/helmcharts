@@ -3,7 +3,30 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: 2020-09-15T18:37:07.548710222Z
+    created: 2020-09-15T21:24:32.169836485Z
+    deprecated: true
+    description: DEPRECATED Local chart that does not use PVC.
+    digest: 7c1191aca093b624e021190b08a6f3a5e0743684053662dcd7d3c4234234fb04
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.1.0.tgz
+    version: 9.1.0
+  - apiVersion: v1
+    appVersion: 5.3.2
+    created: 2020-09-15T21:24:32.165562186Z
     deprecated: true
     description: DEPRECATED Web publishing platform for building blogs and websites.
     digest: 6dda8337f18c8c19df1f97bdd4829bd1cfd70e84db1edac5a042711d86aef12a
@@ -24,4 +47,4 @@ entries:
     urls:
     - wordpress-9.0.3.tgz
     version: 9.0.3
-generated: 2020-09-15T18:37:07.543528816Z
+generated: 2020-09-15T21:24:32.160253647Z
